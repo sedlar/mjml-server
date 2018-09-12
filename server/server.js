@@ -28,7 +28,7 @@ var server = net.createServer((conn) => {
   console.log(err)
   throw err
 }).listen({
-  host: 'localhost',
+  host: '0.0.0.0',
   port: 8686,
   exclusive: true
 }, () => {
